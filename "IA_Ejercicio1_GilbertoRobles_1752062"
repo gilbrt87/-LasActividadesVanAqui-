@@ -1,0 +1,6 @@
+lista=["Ana","Juan","Pedro"]
+name=input("¿Como te llamas?:")
+for x in lista:
+  if name==x:break
+else:
+  print("Hola",name)
