@@ -1,0 +1,11 @@
+n=int(input("Cuantos elementos?:"))
+if n>0:
+  a=[input("Agrega un elemento")]
+  for x in range(1,n,1):
+    if x==n:break
+    e=input("Agrega un elemento:")
+    a.append(e)
+  print("**********")
+  for y in a:
+    print("*",y,"*")
+  print("**********")
